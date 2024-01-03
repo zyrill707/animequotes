@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: myFont;
+  src:url("GoldenbirdDown-R6Bo.otf");
+}
+@font-face{
+  font-family: myText;
+  src:url("PowerOfDragonRegular-axZom.ttf");
+}
+body{
+  display:grid;
+  place-items: center;
+  background-color:black;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  width:200px;
+  margin:100px 30px;
+  border:1px solid gray;
+  color:white;
+  box-shadow:0px 0px 20px white;
+}
+
+#animeName{
+  border-bottom:1px solid gray;
+  font-size:30px;
+  font-weight:200;
+  font-family:myFont;
+}
+
+#speech{
+  line-height: 1.6;
+  font-size:15px;
+  margin:5px 5px;
+  font-family:myText;
+}
+
+#btn{
+  padding:5px 5px;
+  font-size:12px;
+  border:none;
+  font-weight:bold;
+  background:linear-gradient(56deg,yellow,gold,red);
+  text-transform:uppercase;
+}
+
+#btn:active{
+  background:linear-gradient(60deg,red,gold,yellow);
+}
+
+#userInput{
+  color:white;
+  border:none;
+  padding:5px 5px;
+  background:transparent;
+}
+
+#searchBtn{
+  font-weight:bold;
+  padding:5px 5px;
+  border:none;
+  background-color:lightblue;
+  text-transform: uppercase;
+  background:linear-gradient(159deg,white, #414246, white);
+}
+
+footer, 
+a{
+ color:white;
+ text-decoration:none;
+ font-size:20px;
+ text-align:center;
+}
+i{
+  margin-left:20px;
+}
+
+.direction{
+  font-size:5px;
+  color:white;
+  line-height:1.2;
+  width:auto;
+  margin:20px auto;
+  opacity:0.6;
+}
